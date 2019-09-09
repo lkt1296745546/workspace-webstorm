@@ -1,0 +1,242 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.header{
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+.content{
+    width: 100%;
+    height: 20rem;
+    overflow: scroll;
+}
+.main .head{
+    left: 0;
+    top: 0;
+    position: relative;
+    margin-right: 0 !important;
+    width: inherit;
+    height: 1rem;
+    background-color: #06c1ae;
+}
+.head .title{
+    width: inherit;
+    height: inherit;
+}
+.head h1{
+    text-align: center;
+    line-height: 1rem;
+    font-size: 18px;
+    color: #fff;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    margin-right: 0 !important;
+    width: inherit;
+    height: 0.9rem;
+    border: #e6e6e6 1px solid;
+    background-color: #fff;
+}
+.subtitle .left{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 1rem;
+    /*background-color: #fff;*/
+}
+.subtitle .right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 1rem;
+}
+.right .icon-uniE900{
+    position: absolute;
+    right: -60px;
+}
+.subtitle a{
+    text-align: center;
+    width: 2rem;
+    height: 1rem;
+    color: #333333;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    margin: 1px 35px ;
+}
+.subtitle a:active{
+    color: red;
+}
+.hot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem;
+}
+.hot a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 114px;
+    border: 1px solid #e6e6e6;
+}
+.hot-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 112px;
+    /*border: black solid 1px;*/
+}
+.hot-left img{
+    width: 64px;
+    height: 90px;
+}
+.hot-right{
+    height: 114px;
+    position: relative;
+    /*border: black 1px solid;*/
+}
+.hot-right .text1 {
+    position: relative;
+    top:11px;
+    left: 5px;
+    width: 175px;
+    height: 24px;
+}
+.hot-right .text1 h1{
+    color: #333333;
+    font-size: 17px;
+}
+.hot-right .text2 {
+    position: relative;
+    top: 16px;
+    left: 5px;
+    width: 43px;
+    height: 17px;
+}
+.hot-right .text2 p{
+    color: #666;
+    font-size: 13px;
+}
+.hot-right .text3 {
+    position: relative;
+    top: -5px;
+    left: 45px;
+    width: 23px;
+    height: 18px;
+}
+.hot-right .text3 p{
+    font-size: 17px;
+    color: #faaf00;
+}
+.hot-right .text4 {
+    position: relative;
+    left: 5px;
+    top: 1px;
+    width: 292px;
+    height: 15px;
+}
+.hot-right .text4 p{
+    color: #666;
+    font-size: 13px;
+}
+.hot-right .text5 {
+    position: relative;
+    left: 5px;
+    top: 6px;
+    width: 292px;
+    height: 15px;
+}
+.hot-right .text5 p{
+    color: #666;
+    font-size: 13px;
+}
+.hot-right .button {
+    display: flex;
+    justify-content: center;
+    width: 47px;
+    height: 27px;
+    background-color: red;
+    position: absolute;
+    bottom: 45px;
+    right: 30px;
+    border-radius: 4px;
+}
+.hot-right .button p{
+    width: 24px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    border: 1px #e6e6e6 solid;
+    bottom: 0;
+    display: flex;
+    justify-items: center;
+    background-color: #fff;
+}
+.footer a{
+    flex: 1 0 auto;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .item{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .img{
+    width: 0.5rem;
+    height: 0.5rem;
+    /*text-align:center;*/
+    /*margin: 10px 1rem;*/
+    border: 1px solid black;
+}
+.footer img{
+    width: 0.5rem;
+    height: 0.5rem;
+    /*margin: 10px 1rem;*/
+}
+.footer p{
+    font-size:10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
